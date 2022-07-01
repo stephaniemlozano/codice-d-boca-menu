@@ -1,6 +1,6 @@
 const menuElement = document.querySelector('#menu')
 
-fetch('https://codice-boca.web.app/menu')
+fetch('http://localhost:4000/')
   .then(response => response.json())
   .then(menuItems => {
     let html = ''
